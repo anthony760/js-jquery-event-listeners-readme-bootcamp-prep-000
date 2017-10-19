@@ -5,14 +5,14 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('click', function () {
+  $('img').on('load', function () {
     $('img').addClass('tasty');
   });
 }
 
 $(document).ready(function(){
 
-  getIt();
+  //getIt();
   frameIt();
 
 });
