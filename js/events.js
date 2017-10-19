@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $(document).load(function () {
+  $(document).click(function () {
     alert('HIIIII');
   });
 }
