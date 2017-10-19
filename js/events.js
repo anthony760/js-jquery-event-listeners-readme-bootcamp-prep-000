@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').click(function () {
+  $(document).load(function () {
     alert('HIIIII');
   });
 }
@@ -16,4 +16,3 @@ $(document).ready(function(){
   frameIt();
 
 });
-  
