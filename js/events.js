@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $("img").load(function() {
+  $(document).load(function() {
     alert('HiIII');
   });
 }
