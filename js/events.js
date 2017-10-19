@@ -5,8 +5,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $(document).on('load', function(){
-    alert('Hi2');
+  $('img').on('load', function(){
+    alert('hi');
   });
 }
 
