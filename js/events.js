@@ -10,6 +10,12 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('form').on('keydown', function(key) {
+    console.log(key);
+  });
+}
+
 $(document).ready(function(){
 
   getIt();
