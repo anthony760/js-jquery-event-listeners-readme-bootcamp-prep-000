@@ -5,8 +5,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('click', function(){
-    $('img').addClass('tasty');
+  $('img').load(function () {
+    alert('HIIIII');
   });
 }
 
@@ -16,3 +16,4 @@ $(document).ready(function(){
   frameIt();
 
 });
+  
