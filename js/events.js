@@ -1,8 +1,6 @@
 function getIt() {
-  $(document).on('keypress', function(key) {
-    if (key.which == 13){
-      alert('enter was pressed');
-    }
+  $('img').on('hover', function(key) {
+    alert('enter was pressed');
   });
 }
 
