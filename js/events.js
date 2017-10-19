@@ -6,6 +6,6 @@ function getIt() {
 
 $(document).ready(function(){
 
-getIt();
+  getIt();
 
 });
