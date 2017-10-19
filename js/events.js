@@ -1,5 +1,5 @@
 function getIt() {
-  $('img').on('clicked', function() {
+  $('img').on('click', function() {
     alert('enter was pressed');
   });
 }
